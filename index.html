@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web App</title>
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+</head>
+<body>
+    <ons-navigator>
+        <ons-page>
+            <ons-toolbar>
+                <div class="center">Geolocation App</div>
+            </ons-toolbar>
+            <div id="map" style="width: 800px; height: 600px; margin: 0 auto;"></div>
+        </ons-page>
+    </ons-navigator>
+    <script src="index.js"></script>
+</body>
+</html>
